@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MAFBeVideo"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "视频会议"
   s.description  = <<-DESC
 农旗视频会议封装
@@ -27,6 +27,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
   s.source       = { :git => "https://github.com/LDeath/MAFBeVideo.git", :tag => "#{s.version}" }
   s.source_files = 'MAFBeVideo/**/**/*'
-  s.vendored_libraries = '/MAFBeVideo/VideoLib/*.a'
+  s.ios.vendored_libraries = '/MAFBeVideo/VideoLib/libJPlayer.a'
 
 end
