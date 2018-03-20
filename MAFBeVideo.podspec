@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   s.author             = { "高赛" => "395765302@qq.com" }
   s.ios.deployment_target = "7.0"
   s.source       = { :git => "https://github.com/LDeath/MAFBeVideo.git", :tag => "#{s.version}" }
-  s.source_files = 'MAFBeVideo/**/**/*.{h,m,mm,glsl}'
+  s.source_files = 'MAFBeVideo/**/**/*'
+  s.vendored_libraries = '/MAFBeVideo/VideoLib/*.a'
 
 end
