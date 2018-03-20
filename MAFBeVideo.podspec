@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MAFBeVideo"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "视频会议"
   s.description  = <<-DESC
 农旗视频会议封装
