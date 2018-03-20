@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MAFBeVideo"
-  s.version      = "0.0.10"
+  s.version      = "0.1.0"
   s.summary      = "视频会议"
   s.description  = <<-DESC
 农旗视频会议封装
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author             = { "高赛" => "395765302@qq.com" }
   s.ios.deployment_target = "7.0"
   s.source       = { :git => "https://github.com/LDeath/MAFBeVideo.git", :tag => "#{s.version}" }
-  s.source_files = 'MAFBeVideo/**/**/*'
+  s.source_files = 'MAFBeVideo/**/**/*.{h,m,mm}'
   s.ios.vendored_libraries = 'MAFBeVideo/VideoLib/libJPlayer.a'
   s.resources 	 = "MAFBeVideo/1374.wav"
 
