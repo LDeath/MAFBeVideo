@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MAFBeVideo"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "视频会议"
   s.description  = <<-DESC
 农旗视频会议封装
@@ -26,12 +26,5 @@ Pod::Spec.new do |s|
   s.author             = { "高赛" => "395765302@qq.com" }
   s.ios.deployment_target = "7.0"
   s.source       = { :git => "https://github.com/LDeath/MAFBeVideo.git", :tag => "#{s.version}" }
-  s.compiler_flags          = '-ObjC'
-  s.pod_target_xcconfig = {
-        'ENABLE_BITCODE'           => 'NO',
-	'C++ Language Dialect'	   => 'Compile Default',
-	'C++ Standard Library'     => 'Compile Default',
-	'Debug Information Format' => 'DWARF'
-    }
 
 end
